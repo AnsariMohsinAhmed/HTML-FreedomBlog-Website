@@ -6,93 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Freedom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Freedom</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum modi fugit, vero atque doloribus illum
-            temporibus, aut autem veniam facilis perferendis, dolorum blanditiis. Iusto, aut.</p>
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="posts.html">Posts</a> |
-        <a href="contact.html">Contact</a>
+        <div class="logo">
+            <h1>Freedom</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum modi fugit, vero atque doloribus illum
+                temporibus, aut autem veniam facilis perferendis, dolorum blanditiis. Iusto, aut.</p>
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="posts.html">Posts</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
     </header>
 
-    <hr>
+    <div class="main-content">
+        <div class="column1">
+            <!-- main content -->
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorum dolore reiciendis nemo
+                facere delectus cupiditate nostrum, nihil iure quibusdam minus non at explicabo, porro
+                architecto amet, velit placeat cum sapiente iusto voluptatem excepturi commodi laudantium natus.
+                Non, cum alias.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1353151486037!2d72.81717871489955!3d18.969630487148986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce6e893065bd%3A0x9879ebcd3ef31652!2sMumbai%20Central!5e0!3m2!1sen!2sin!4v1630669762240!5m2!1sen!2sin"
+                width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" class="rounded"></iframe>
+            <!-- old height = 300 -->
+        </div>
+        <div class="column2">
+            <!-- right menu -->
+            <h3>Category</h3>
+            <div class="category">
+                <a href="category.html">Lorem ipsum dolor.</a>
+                <a href="category.html">Ipsum ipsum.</a>
+                <a href="category.html">Dolor sit dolor.</a>
+                <a href="category.html">Amet ipsum dolor.</a>
+            </div>
+            <h3>Authors</h3>
+            <div class="authors">
+                <a href="author.html">John Marshal</a>
+                <a href="author.html">Allen Green</a>
+                <a href="author.html">Martin Lex</a>
+            </div>
+            <h3>Tags</h3>
+            <div class="tags">
+                <a href="tag.html">Lorem</a>
+                <a href="tag.html">Atque</a>
+                <a href="tag.html">Dolor</a>
+                <a href="tag.html">Placeat</a>
+                <a href="tag.html">Ullam</a>
+                <a href="tag.html">Repellat</a>
+                <a href="tag.html">Placeat</a>
+                <a href="tag.html">Atque</a>
+                <a href="tag.html">Dolor</a>
+                <a href="tag.html">Lorem</a>
+                <a href="tag.html">Atque</a>
+                <a href="tag.html">Dolor</a>
+                <a href="tag.html">Placeat</a>
+            </div>
+        </div>
 
-    <section>
-        <table>
-            <tr>
-                <td style="vertical-align: top;">
-                    <!-- main content -->
-                    <h2>Contact Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolorum dolore reiciendis nemo
-                        facere delectus cupiditate nostrum, nihil iure quibusdam minus non at explicabo, porro
-                        architecto amet, velit placeat cum sapiente iusto voluptatem excepturi commodi laudantium natus.
-                        Non, cum alias.</p>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.1353151486037!2d72.81717871489955!3d18.969630487148986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce6e893065bd%3A0x9879ebcd3ef31652!2sMumbai%20Central!5e0!3m2!1sen!2sin!4v1630669762240!5m2!1sen!2sin"
-                        width="900" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </td>
-                <td style="vertical-align: top; width: 20%;">
-                    <!-- Right corner -->
-                    <h3>Category</h3>
-                    <ul>
-                        <li>
-                            <a href="category.html">Lorem ipsum dolor.</a>
-                        </li>
+    </div>
 
-                        <li>
-                            <a href="category.html">Ipsum ipsum.</a>
-                        </li>
-
-                        <li>
-                            <a href="category.html">Dolor sit dolor.</a>
-                        </li>
-
-                        <li>
-                            <a href="category.html">Amet ipsum dolor.</a>
-                        </li>
-                    </ul>
-                    <h3>Authors</h3>
-                    <ul>
-                        <li>
-                            <a href="author.html">John Marshal</a>
-                        </li>
-
-                        <li>
-                            <a href="author.html">Allen Green</a>
-                        </li>
-
-                        <li>
-                            <a href="author.html">Martin Lex</a>
-                        </li>
-                    </ul>
-                    <h3>Tags</h3>
-                    <a href="tag.html">Lorem</a>,
-                    <a href="tag.html">Atque</a>,
-                    <a href="tag.html">Dolor</a>,
-                    <a href="tag.html">Placeat</a>,
-                    <a href="tag.html">Ullam</a>,
-                    <a href="tag.html">Repellat</a>,
-                    <a href="tag.html">Placeat</a>,
-                    <a href="tag.html">Atque</a>,
-                    <a href="tag.html">Dolor</a>,
-                    <a href="tag.html">Lorem</a>,
-                    <a href="tag.html">Atque</a>,
-                    <a href="tag.html">Dolor</a>,
-                    <a href="tag.html">Placeat</a>.
-                </td>
-            </tr>
-        </table>
-
-        <hr>
-
-    </section>
-
-    <footer>
+    <footer class="footer">
         Follow Us: <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
         <a href="https://www.instagram.com/" target="_blank">Instagram</a> |
         <a href="https://www.linkedin.com/login" target="_blank">LinkedIn</a>
